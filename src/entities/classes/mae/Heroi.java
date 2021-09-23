@@ -5,6 +5,11 @@ public class Heroi {
     private String nome;
     private double vida;
 
+    public Heroi(String nome, double vida) {
+        this.nome = nome;
+        this.vida = vida;
+    }
+
     public String getNome() {
         return nome;
     }
