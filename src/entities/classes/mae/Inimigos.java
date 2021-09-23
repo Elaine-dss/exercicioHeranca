@@ -4,6 +4,10 @@ public class Inimigos {
 
     private String nome;
     private double vida;
+    public Inimigos(String nome, double vida) {
+        this.nome = nome;
+        this.vida = vida;
+    }
 
     public String getNome() {
         return nome;
